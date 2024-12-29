@@ -113,13 +113,24 @@ color:"#f6d221",
 adj:"mango_kitkat"
 });
 
+addIngredient("mug",{
+type:"bread",
+color:"##ffffff",
+shape:"angle_bracket_up_thin_top",
+scale:2,
+height:0.4,
+width:1,
+keywords:"mug,cup",
+dishName:"mug",
+adj:"mug"
+}),
+
+
 addRecipe("kitkat+green_tea_kitkat+strawberry_kitkat+mint_kitkat+pumpkin_pie_kitkat+ruby_cocoa_kitkat+mango_kitkat+oreo+golden_oreo+mint_oreo+strawberry_oreo+melon_oreo+watermelon_oreo+mango_oreo","The Holy KitReo");
 
 addRecipe("oreo+golden_oreo+mint_oreo+strawberry_oreo+melon_oreo+watermelon_oreo+mango_oreo","The Holy Oreo");
 
-
-addRecipe("oreo+kitkat","OreKat");
-
 addRecipe("kitkat+oreo","KitReo");
+
 
 addRecipe("kitkat+green_tea_kitkat+strawberry_kitkat+mint_kitkat+pumpkin_pie_kitkat+ruby_cocoa_kitkat+mango_kitkat","The Holy kitkat");
